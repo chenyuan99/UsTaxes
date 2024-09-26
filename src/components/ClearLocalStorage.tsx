@@ -6,7 +6,10 @@ const ClearLocalStorage = (
 ): ReactElement => {
   const { children, ...rest } = props
 
-  const onClick = () => localStorage.clear()
+  const onClick = () => {
+    localStorage.clear()
+    location.reload()
+  }
 
   return (
     <Button {...rest} onClick={onClick}>
