@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.ustaxes.UsTaxes</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>UsTaxes</name>
+  <summary>Free, open-source tax filing application for US federal and state taxes</summary>
+  <description>
+    <p>
+      UsTaxes is a free, open-source tax filing application that can be used to file the Federal 1040 form. 
+      It is provided free of charge and requires no sharing of personal data.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Supports Form 1040 and various schedules</li>
+      <li>Handles income from W2, 1099-INT, 1099-DIV, 1099-B, 1098-E, 1099-R, and SSA-1099</li>
+      <li>Supports credits for children and other dependents</li>
+      <li>Supports earned income credit</li>
+      <li>Partial support for state returns (Illinois)</li>
+      <li>All data stays on your computer - no personal information is shared</li>
+    </ul>
+  </description>
+  <url type="homepage">https://ustaxes.org/</url>
+  <url type="bugtracker">https://github.com/ustaxes/UsTaxes/issues</url>
+  <url type="help">https://discord.gg/dAaz472mPz</url>
+  <developer_name>UsTaxes Team</developer_name>
+  <launchable type="desktop-id">com.ustaxes.UsTaxes.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>UsTaxes main screen</caption>
+      <image>https://raw.githubusercontent.com/ustaxes/UsTaxes/master/flatpak/screenshots/main.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="0.1.23" date="2025-03-05">
+      <description>
+        <p>Latest release of UsTaxes</p>
+      </description>
+    </release>
+  </releases>
+</component>

@@ -140,6 +140,30 @@ Once your environment is set up for Tauri, run, `npm run desktop`. To avoid a br
 
 To build executables, run `npm run desktop-release`.
 
+## Installation Options
+
+### Web Application
+
+UsTaxes is available as a web application at [ustaxes.org](https://ustaxes.org/).
+
+### Desktop Application
+
+Desktop versions are available for download from our [GitHub Releases page][desktop-releases].
+
+#### Flatpak
+
+UsTaxes is also available as a Flatpak package. To install:
+
+```sh
+# Add Flathub if you haven't already
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# Install UsTaxes
+flatpak install flathub com.ustaxes.UsTaxes
+```
+
+For more information about building and installing the Flatpak package, see the [flatpak/README.md](flatpak/README.md) file.
+
 ## Getting help
 
 Please reach out to us on our [discord][discord-url] if you run into any problems, or [file an issue][github-issues]. Thank you for your support!

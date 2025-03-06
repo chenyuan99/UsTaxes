@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=UsTaxes
+Comment=Free, open-source tax filing application for US federal and state taxes
+Exec=ustaxes
+Icon=com.ustaxes.UsTaxes
+Terminal=false
+Categories=Office;Finance;
+Keywords=tax;taxes;1040;filing;irs;
+StartupWMClass=UsTaxes
